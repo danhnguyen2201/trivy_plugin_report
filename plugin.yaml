@@ -10,5 +10,5 @@ platforms:
   - selector:
       os: linux
       arch: amd64
-    uri: https://github.com/danhnguyen2201/trivy_plugin_report/releases/download/v0.1.0/trivy_plugin_report_0.1.0_linux-amd64.tar.gz
+    uri: https://github.com/danhnguyen2201/trivy_plugin_report/releases/download/0.1.0/trivy-plugin-report_0.1.0_linux_amd64.deb
     bin: ./report
