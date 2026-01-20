@@ -2,7 +2,7 @@ project_name: trivy-plugin-report
 builds:
   -
     main: .
-    binary: report
+    binary: trivy-plugin-report
     ldflags:
       - -s -w
       - "-extldflags '-static'"
