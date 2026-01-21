@@ -298,7 +298,7 @@ func Export(report *types.Report, path string) error {
 			),
 		)
 
-		// Table Header (Cũng có thể đóng khung nếu muốn đồng bộ, nhưng ở đây giữ nguyên header nền xám)
+		// Table Header
 		headerRow := row.New(8)
 		headerRow.WithStyle(&props.Cell{BackgroundColor: ColorBgHeader})
 		for i, h := range headers {
