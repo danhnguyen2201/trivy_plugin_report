@@ -1,6 +1,6 @@
 name: report
 repository: github.com/danhnguyen2201/trivy-plugin-report
-version: "0.1.1"
+version: "0.1.0
 output: true
 summary: A trivy plugin that can convert scan results into excel
 usage: Template
