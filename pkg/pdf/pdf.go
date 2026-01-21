@@ -22,9 +22,6 @@ import (
 	"github.com/johnfercher/maroto/v2/pkg/props"
 )
 
-// --- 1. PRE-DEFINED COLORS ---
-// (Giữ nguyên phần khai báo màu sắc như cũ)
-
 var (
 	ColorHeaderOpen = &props.Color{Red: 20, Green: 20, Blue: 20}
 	ColorHeaderText = &props.Color{Red: 40, Green: 40, Blue: 40}
